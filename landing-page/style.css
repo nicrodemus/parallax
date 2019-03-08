@@ -110,23 +110,15 @@ li {
 .carousel-control-next {
   padding-right: 190px;
 }
-.primo,
-.secondo {
+.primo {
+  height: 500px;
+}
+.top {
   transition: all 1s linear;
   /* border: 1px solid white; */
-  height: 500px;
-  opacity: 0.8;
+
+  opacity: 0.2;
 }
-.primo:hover {
-  background-image: url("img/jungle.jpg");
-  background-size: cover;
-  background-repeat: no-repeat;
-  opacity: 1;
-  color: black;
-}
-.secondo:hover {
-  background-image: url("img/space.jpg");
-  background-size: cover;
-  background-repeat: no-repeat;
+.top:hover {
   opacity: 1;
 }
