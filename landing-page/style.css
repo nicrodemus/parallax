@@ -1,0 +1,132 @@
+body {
+  background-image: url("img/alone-architecture-buildings-220444.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+header {
+  height: 180px;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: flex-end;
+}
+ul {
+  height: 100%;
+  width: 100px;
+  padding: 0;
+  border: 1px solid black;
+}
+li {
+  border: 1px solid black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 25%;
+
+  list-style-type: none;
+}
+/*--------------------------first--------------------------------------*/
+.first {
+  padding-left: 100px;
+
+  height: 400px;
+}
+.who {
+  border: 1px solid black;
+  width: 15%;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: all 2s linear;
+}
+.who:hover {
+  width: 35%;
+  color: white;
+  border: 1px solid white;
+}
+.who:hover ~ .CV {
+  opacity: 1;
+}
+.CV {
+  display: flex;
+  opacity: 0;
+  flex-direction: column;
+  flex-wrap: wrap;
+  width: 500px;
+  height: 500px;
+  padding-top: 28px;
+  transition: all 2s linear;
+  /* border: 1px solid black; */
+}
+.column {
+  width: 32%;
+  display: flex;
+  flex-direction: column;
+  color: white;
+}
+.column > span {
+  color: white;
+}
+.lb {
+  border-left: 2px solid white;
+  height: 310px;
+}
+/*--------------------------second--------------------------------------*/
+.second {
+  padding-top: 200px;
+  /* border: 1px solid black; */
+  height: 800px;
+}
+#carouselExampleIndicators {
+  display: flex;
+  justify-content: space-between;
+  height: 500px;
+  color: white;
+  /* border: 1px solid black; */
+  width: 100%;
+}
+.carousel-inner {
+  padding-left: 100px;
+  width: 45%;
+}
+.control {
+  height: 50px;
+  width: 17%;
+
+  padding-right: 100px;
+}
+.carousel-control-next,
+.carousel-control-prev {
+  height: 30px;
+  padding-top: 30px;
+  /* border: 1px solid black; */
+}
+.carousel-control-prev {
+  width: 100%;
+  padding-left: 990px;
+}
+.carousel-control-next {
+  padding-right: 190px;
+}
+.primo,
+.secondo {
+  transition: all 1s linear;
+  /* border: 1px solid white; */
+  height: 500px;
+  opacity: 0.8;
+}
+.primo:hover {
+  background-image: url("img/jungle.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  opacity: 1;
+  color: black;
+}
+.secondo:hover {
+  background-image: url("img/space.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  opacity: 1;
+}
