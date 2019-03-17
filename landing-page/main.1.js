@@ -1,4 +1,3 @@
-console.log("hello!");
 window.onload = function() {
   // your code
 
